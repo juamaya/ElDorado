@@ -1,11 +1,13 @@
-<template>
-  <section class="mx-auto max-w-7xl px-6 py-12">
-    <h1 class="text-4xl font-bold text-slate-900">
-      ABOUT
-    </h1>
+<script setup lang="ts">
+import AboutSection from '~/componentes/AboutSection.vue';
 
-    <p class="mt-4 text-lg text-slate-600">
-      Descubre nuestra selección de platos.
-    </p>
-  </section>
+</script>
+
+<template>
+  <main class="mx-auto  bg-gray-300 max-w-7xl px-6 py-12">
+    
+   <AboutSection />
+   
+    
+  </main>
 </template>
