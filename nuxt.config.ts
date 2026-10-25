@@ -18,7 +18,7 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: env?.NUXT_APP_BASE_URL || "/",
+    baseURL: env?.NUXT_APP_BASE_URL || "/ElDorado/",
 
     head: {
       title: "El Dorado | Cerveceria",
