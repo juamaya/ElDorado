@@ -1,11 +1,11 @@
-<template>
-  <section class="mx-auto max-w-7xl px-6 py-12">
-    <h1 class="text-4xl font-bold text-slate-900">
-    CONTACT
-    </h1>
+<script setup lang="ts">
+import ContactForm from '~/componentes/ContactForm.vue';
 
-    <p class="mt-4 text-lg text-slate-600">
-      Descubre nuestra selección de platos.
-    </p>
+</script>
+
+<template>
+  <section class="mx-auto bg-gray-300 max-w-7xl px-6 py-12">
+     
+    <ContactForm/>
   </section>
 </template>
