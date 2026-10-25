@@ -40,7 +40,7 @@ watch(
         class="text-2xl font-extrabold tracking-tight text-emerald-400 transition hover:text-emerald-300"
         aria-label="Ir a Home"
       >
-        Mi<span class="text-white">Restaurante</span>
+       <span class="text-white">El</span>Dorado
       </NuxtLink>
 
       <!-- Botón móvil -->
