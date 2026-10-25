@@ -1,5 +1,9 @@
 import tailwindcss from "@tailwindcss/vite";
 
+const env = (globalThis as typeof globalThis & {
+  process?: { env?: Record<string, string | undefined> };
+}).process?.env;
+
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
 
@@ -14,7 +18,7 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: import.meta.env.PROD ? "/ElDorado/" : "/",
+    baseURL: env?.NUXT_APP_BASE_URL || "/",
 
     head: {
       title: "El Dorado | Cerveceria",
@@ -26,9 +30,5 @@ export default defineNuxtConfig({
         },
       ],
     },
-  },
-
-  nitro: {
-    preset: "github-pages",
   },
 });

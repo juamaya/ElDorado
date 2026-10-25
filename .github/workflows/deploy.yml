@@ -1,5 +1,4 @@
 
-
 name: Deploy El Dorado to GitHub Pages
 
 on:
@@ -20,9 +19,6 @@ jobs:
     name: Build Nuxt
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: read
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -37,7 +33,7 @@ jobs:
         run: npm ci
 
       - name: Generate static website
-        run: npm run generate
+        run: npx nuxt build --preset github_pages
         env:
           NUXT_APP_BASE_URL: /${{ github.event.repository.name }}/
 
