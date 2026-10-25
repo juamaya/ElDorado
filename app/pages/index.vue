@@ -9,7 +9,7 @@ import SectionHeading from '~/componentes/SectionHeading.vue';
  
 
 useSeoMeta({
-  title: 'El Dorado | Cocina, vino y momentos',
+  title: 'El Dorado | Cerveceria',
   description: 'Descubre nuestra cocina de temporada, vinos seleccionados y coctelería de autor.',
   ogTitle: 'ATELIER — Cocina, vino y momentos',
   ogDescription: 'Una experiencia gastronómica contemporánea.',
@@ -21,7 +21,7 @@ import heroImage from '/images/dorado.jpg'
 </script>
 
 <template>
-  <div>
+  <div class="bg-gray-300">
     <section
       id="inicio"
       class="relative flex min-h-[90svh] items-center overflow-hidden bg-ink text-white lg:min-h-195"

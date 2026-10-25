@@ -1,11 +1,23 @@
-<template>
-  <section class="mx-auto max-w-7xl px-6 py-12">
-    <h1 class="text-4xl font-bold text-slate-900">
-  DRINKS
-    </h1>
+<script setup lang="ts">
+import BebidasAlcoholicas from '~/componentes/BebidasAlcoholicas.vue';
+import BebidasList from '~/componentes/BebidasList.vue';
+import VinosList from '~/componentes/VinosList.vue';
 
-    <p class="mt-4 text-lg text-slate-600">
-      Descubre nuestra selección de platos.
-    </p>
-  </section>
+</script>
+
+<template>
+  
+ <main class="min-h-screen text-center bg-gray-300 px-4 py-12">
+     <h1 class="text-4xl font-bold text-slate-900 mb-4">
+  Nuestra seleccion de bebidas
+    </h1>
+    <BebidasList />
+    <br/>
+     <BebidasAlcoholicas />
+     <br/>
+         <VinosList />
+       
+   
+  </main>
+ 
 </template>

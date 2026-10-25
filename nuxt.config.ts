@@ -16,7 +16,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: "El Dorado | Caféteria - Bar",
+      title: "El Dorado | Cerveceria",
       meta: [
         {
           name: "description",

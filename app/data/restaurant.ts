@@ -50,18 +50,10 @@ export const restaurant = {
     image:
       "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=900&q=85",
   },
+ 
+  
   {
     id: 5,
-    name: "Pulpo a la brasa",
-    description:
-      "Pulpo tierno a la brasa, parmentier de patata y pimentón ahumado.",
-    price: "24 €",
-    category: "Principales",
-    image:
-      "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?auto=format&fit=crop&w=900&q=85",
-  },
-  {
-    id: 6,
     name: "Croquetas caseras",
     description:
       "Croquetas cremosas de jamón ibérico con un exterior dorado y crujiente.",
@@ -71,7 +63,7 @@ export const restaurant = {
       "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=85",
   },
   {
-    id: 7,
+    id: 6,
     name: "Solomillo de ternera",
     description:
       "Solomillo a la parrilla, patatas rústicas y salsa de pimienta.",
@@ -81,7 +73,7 @@ export const restaurant = {
       "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=900&q=85",
   },
   {
-    id: 8,
+    id: 7,
     name: "Ensalada mediterránea",
     description:
       "Mezcla de hojas frescas, tomate cherry, aceitunas, feta y vinagreta cítrica.",
@@ -91,7 +83,7 @@ export const restaurant = {
       "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=85",
   },
   {
-    id: 9,
+    id: 8,
     name: "Lasaña artesanal",
     description:
       "Capas de pasta fresca, ragú de carne, bechamel suave y parmesano gratinado.",
@@ -101,7 +93,7 @@ export const restaurant = {
       "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?auto=format&fit=crop&w=900&q=85",
   },
   {
-    id: 10,
+    id: 9,
     name: "Tiramisú italiano",
     description:
       "Bizcocho empapado en café, crema de mascarpone y cacao puro.",
@@ -110,18 +102,9 @@ export const restaurant = {
     image:
       "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=900&q=85",
   },
+ 
   {
-    id: 11,
-    name: "Gambas al ajillo",
-    description:
-      "Gambas salteadas con ajo, guindilla y aceite de oliva virgen extra.",
-    price: "17 €",
-    category: "Entrantes",
-    image:
-      "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=900&q=85",
-  },
-  {
-    id: 12,
+    id: 10,
     name: "Lubina al horno",
     description:
       "Lubina fresca con verduras de temporada, limón y hierbas aromáticas.",
@@ -131,7 +114,7 @@ export const restaurant = {
       "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=900&q=85",
   },
   {
-    id: 13,
+    id: 11,
     name: "Cheesecake de frutos rojos",
     description:
       "Tarta de queso cremosa con base crujiente y coulis de frutos rojos.",
@@ -141,7 +124,7 @@ export const restaurant = {
       "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=900&q=85",
   },
   {
-    id: 14,
+    id: 12,
     name: "Pizza de burrata",
     description:
       "Masa artesanal, tomate italiano, burrata fresca, albahaca y aceite de oliva.",
@@ -151,7 +134,7 @@ export const restaurant = {
       "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=900&q=85",
   },
   {
-    id: 15,
+    id: 13,
     name: "Crema catalana",
     description:
       "Crema suave aromatizada con cítricos y canela, cubierta de azúcar caramelizado.",
