@@ -1,6 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import tailwindcss from "@tailwindcss/vite";
 
+const env = (globalThis as typeof globalThis & {
+  process?: { env?: Record<string, string | undefined> };
+}).process?.env;
+
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
 
@@ -15,13 +19,15 @@ export default defineNuxtConfig({
   },
 
   app: {
+    baseURL: env?.NUXT_APP_BASE_URL || "/",
+
     head: {
       title: "El Dorado | Cerveceria",
       meta: [
         {
           name: "description",
           content:
-            "Disfruta del mejor café, tapas y buenos momentos en La Taza Café-Bar.",
+            "Disfruta de la mejor cerveza, tapas y buenos momentos en La Cerveceria - Bar.",
         },
       ],
     },
