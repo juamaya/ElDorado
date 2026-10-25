@@ -1,4 +1,4 @@
-export interface Dish {
+export interface Dish1 {
   id: number;
   name: string;
   description: string;
@@ -6,7 +6,7 @@ export interface Dish {
   category: string;
   image: string;
 }
-export const raciones: Dish[] = [
+export const raciones: Dish1[] = [
   {
     id: 1,
     name: "Calamares fritos",
@@ -109,4 +109,4 @@ export const raciones: Dish[] = [
     image: "/images/pescaito1.jpg",
   },
  
-] satisfies Dish[];
+] satisfies Dish1[];

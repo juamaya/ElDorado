@@ -1,9 +1,4 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 import tailwindcss from "@tailwindcss/vite";
-
-const baseURL =  (globalThis as typeof globalThis & {
-      process?: { env?: Record<string, string | undefined> };
-    } ).process?.env?.NUXT_APP_BASE_URL || "/";
 
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
@@ -19,7 +14,7 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL,
+    baseURL: import.meta.env.PROD ? "/ElDorado/" : "/",
 
     head: {
       title: "El Dorado | Cerveceria",
@@ -31,5 +26,9 @@ export default defineNuxtConfig({
         },
       ],
     },
+  },
+
+  nitro: {
+    preset: "github-pages",
   },
 });
