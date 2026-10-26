@@ -97,7 +97,7 @@ import heroImage from '/images/dorado.jpg'
         </div>
       </section>
 
-      <ExperienceSection/>>
+      <ExperienceSection/>
 
       <section class="bg-terracotta px-5 py-20 text-white sm:px-8 sm:py-24 lg:px-12">
         <div class="mx-auto flex max-w-7xl flex-col gap-8 md:flex-row md:items-center md:justify-between">
