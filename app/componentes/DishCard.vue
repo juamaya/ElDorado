@@ -1,8 +1,9 @@
 
 <script setup lang="ts">
 import type { Dish } from '~/data/restaurant'
+import type { Dish1 } from '~/data/raciones'
 
-defineProps<{ dish: Dish }>()
+defineProps<{ dish: Dish1 }>()
 </script>
 
 <template>
