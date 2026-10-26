@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import DishCard from "~/componentes/DishCard.vue";
+import DishCard1 from "~/componentes/DishCard1.vue";
+ 
 import { restaurant } from "~/data/restaurant";
 import { raciones } from "~/data/raciones";
 </script>
@@ -28,7 +30,7 @@ import { raciones } from "~/data/raciones";
           class="h-52 w-full rounded-xl object-cover sm:h-80"
           loading="lazy"
         />
-      <DishCard v-for="dish in raciones" :key="dish.id" :dish="dish" />
+      <DishCard1 v-for="dish in raciones" :key="dish.id" :dish="dish" />
     </div>
  <h1 class="text-2xl font-bold text-slate-600 mt-10">
     Aquí tienes una selección de platos y postres, divididas por categorías, para que elijas tu favorita
