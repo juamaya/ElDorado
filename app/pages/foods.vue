@@ -22,6 +22,12 @@ import { raciones } from "~/data/raciones";
       id="carta"
       class="mt-12 grid gap-x-7 gap-y-12 sm:grid-cols-2 lg:grid-cols-3"
     >
+     <img
+          src="/images/ramon.jpg "
+          alt="Vasos de cerveza"
+          class="h-52 w-full rounded-xl object-cover sm:h-80"
+          loading="lazy"
+        />
       <DishCard v-for="dish in raciones" :key="dish.id" :dish="dish" />
     </div>
  <h1 class="text-2xl font-bold text-slate-600 mt-10">
