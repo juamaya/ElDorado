@@ -9,8 +9,14 @@ const baseURL = config.app.baseURL;
 </script>
 
 <template>
-  <article class="group">
-    <div class="relative overflow-hidden">
+  <article class="group rounded-2xl border-2 border-amber-500
+                bg-linear-to-br from-amber-50 via-white to-orange-100
+                p-4 gap-2
+                shadow-lg shadow-amber-900/10
+                transition-all duration-300
+                hover:shadow-xl hover:shadow-amber-500/20
+                hover:-translate-y-1">
+    <div class="relative overflow-hidden   ">
       <img
         :src="`${baseURL}${dish.image.replace(/^\/+/, '')}`"
         :alt="dish.name"

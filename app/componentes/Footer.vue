@@ -140,16 +140,11 @@ const menu = [
                text-center sm:flex-row sm:text-left"
       >
         <p class="text-sm text-gray-500">
-         Juamaya © {{ currentYear }} El Dorado.
+         Juamaya26 © {{ currentYear }} El Dorado.
           Todos los derechos reservados.
         </p>
 
-        <NuxtLink
-          to="/contact"
-          class="text-sm transition hover:text-emerald-400"
-        >
-          Contacta con nosotros
-        </NuxtLink>
+       
       </div>
     </div>
   </footer>

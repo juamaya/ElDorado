@@ -37,7 +37,7 @@ export const raciones: Dish1[] = [
   },
   {
     id: 4,
-    name: "Chopitos fritos",
+    name: "Choquitos fritos",
     description:
       "Pequeños calamares fritos con un rebozado ligero y un toque de limón.",
     price: "10.50 €",
