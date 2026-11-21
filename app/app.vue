@@ -5,7 +5,7 @@ import BtnScrollTop from './componentes/BtnScrollTop.vue';
 </script>
 
 <template>
-  <div class="pt-18">
+  <div class="pt-18  ">
     <NuxtLayout>
       <NuxtPage />
       <BtnScrollTop/>

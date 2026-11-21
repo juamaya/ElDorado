@@ -89,7 +89,7 @@ async function handleSubmit() {
 
       <!-- Formulario -->
     <form
-  action="https://formsubmit.co/marinamaya69@gmail.com"
+  action="https://formsubmit.co/marinamaya69@gmail--.com"
   method="POST"
   class="space-y-6 rounded-2xl border border-stone-100
          bg-gray-400 p-6 shadow-lg sm:p-10"
